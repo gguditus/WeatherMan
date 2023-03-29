@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/WeatherMan/static/css/main.1859ff92.css",
+    "main.js": "/WeatherMan/static/js/main.3d2cd316.js",
+    "index.html": "/WeatherMan/index.html",
+    "main.1859ff92.css.map": "/WeatherMan/static/css/main.1859ff92.css.map",
+    "main.3d2cd316.js.map": "/WeatherMan/static/js/main.3d2cd316.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1859ff92.css",
+    "static/js/main.3d2cd316.js"
+  ]
+}
