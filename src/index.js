@@ -63,7 +63,7 @@ function App() {
           </p>
           <img
             id="weatherIcon"
-            src={`../../images/weatherIcons/${weatherData.weather[0].icon}.png`}
+            src={`./images/weatherIcons/${weatherData.weather[0].icon}.png`}
             alt="icon for current weather conditions via TheUjulala on Pixabay"
           ></img>
         </div>
