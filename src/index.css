@@ -1,0 +1,194 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  margin: 15px;
+  padding: 5px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #0d1b2a;
+}
+
+.info {
+  margin: 15px;
+  margin-top: 10vh;
+  padding: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  background-color: #1b263b;
+  border-radius: 15px;
+}
+
+.headerIntro {
+  font-size: 22px;
+  margin-top: 40px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  color: #778da9;
+  text-shadow: 0px 0px 5px #0d1b2a, 0px 0px 15px #415a77, 0px 0px 5px #778da9;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 45px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  color: #778da9;
+  text-shadow: 0px 0px 5px #0d1b2a, 0px 0px 25px #415a77, 0px 0px 15px #778da9;
+}
+
+form {
+  margin: 15px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  margin: 10px;
+  padding: 5px;
+  max-width: 600px;
+  min-width: 200px;
+  min-height: 35px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d1b2a;
+  color: #e0e1dd;
+  border: 3px solid #e0e1dd;
+  border-radius: 7px;
+}
+
+input:focus {
+  transform: scale(1.05);
+  transition: ease 0.5ms;
+  box-shadow: 2px 2px 10px #0d1b2a, 0px 0px 20px #415a77, 3px 3px 15px #778da9;
+}
+
+button {
+  margin: 10px;
+  padding: 5px;
+  max-width: 200px;
+  min-width: 75px;
+  min-height: 35px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d1b2a;
+  color: #e0e1dd;
+  border: 3px solid #e0e1dd;
+  border-radius: 7px;
+}
+button:hover {
+  transform: scale(1.1);
+  transition: ease 0.5ms;
+  box-shadow: 2px 2px 10px #1b263b, 0px 0px 20px #415a77, 3px 3px 15px #778da9;
+}
+
+.weatherData {
+  margin: 15px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather {
+  font-size: 28px;
+  margin: 25px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  color: #778da9;
+  text-shadow: 0px 0px 5px #0d1b2a, 0px 0px 15px #415a77, 0px 0px 5px #778da9;
+}
+
+#weatherIcon {
+  margin: 15px;
+  width: auto;
+  max-height: 25vh;
+  min-height: 15vh;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  margin-top: 75px;
+  color: #e0e1dd;
+}
+
+.footerLogo {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  filter: invert(1);
+}
+
+@media (max-width: 800px) {
+  .headerIntro {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 38px;
+  }
+  input {
+    font-size: 22px;
+  }
+  button {
+    font-size: 22px;
+  }
+  .weather {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .headerIntro {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 34px;
+  }
+  input {
+    font-size: 20px;
+  }
+  button {
+    font-size: 20px;
+  }
+  .weather {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 400px) {
+  .headerIntro {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  input {
+    font-size: 18px;
+  }
+  button {
+    font-size: 18px;
+  }
+  .weather {
+    font-size: 20px;
+  }
+}
