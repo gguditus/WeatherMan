@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/WeatherMan/static/css/main.2a41e97b.css",
-    "main.js": "/WeatherMan/static/js/main.84228ca2.js",
+    "main.js": "/WeatherMan/static/js/main.d6adcc1c.js",
     "index.html": "/WeatherMan/index.html",
     "main.2a41e97b.css.map": "/WeatherMan/static/css/main.2a41e97b.css.map",
-    "main.84228ca2.js.map": "/WeatherMan/static/js/main.84228ca2.js.map"
+    "main.d6adcc1c.js.map": "/WeatherMan/static/js/main.d6adcc1c.js.map"
   },
   "entrypoints": [
     "static/css/main.2a41e97b.css",
-    "static/js/main.84228ca2.js"
+    "static/js/main.d6adcc1c.js"
   ]
 }
