@@ -1,6 +1,6 @@
 body {
   font-family: "Noto Sans", sans-serif;
-  margin: 15px;
+  margin: 5px;
   padding: 5px;
   display: flex;
   flex-flow: column wrap;
@@ -12,7 +12,7 @@ body {
 
 .info {
   margin: 15px;
-  margin-top: 10vh;
+  margin-top: 5vmin;
   padding: 20px;
   display: flex;
   flex-flow: column wrap;
@@ -37,7 +37,7 @@ body {
 h1 {
   font-size: 50px;
   font-weight: bold;
-  margin: 45px;
+  margin: 35px;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -47,7 +47,7 @@ h1 {
 }
 
 form {
-  margin: 15px;
+  margin: 10px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -74,6 +74,7 @@ input:focus {
   transform: scale(1.05);
   transition: ease 0.5ms;
   box-shadow: 2px 2px 10px #0d1b2a, 0px 0px 20px #415a77, 3px 3px 15px #778da9;
+  outline: none;
 }
 
 button {
@@ -91,6 +92,7 @@ button {
   border: 3px solid #e0e1dd;
   border-radius: 7px;
 }
+
 button:hover {
   transform: scale(1.1);
   transition: ease 0.5ms;
@@ -98,7 +100,7 @@ button:hover {
 }
 
 .weatherData {
-  margin: 15px;
+  margin: 10px;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -107,7 +109,7 @@ button:hover {
 
 .weather {
   font-size: 28px;
-  margin: 25px;
+  margin: 17px;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -121,6 +123,7 @@ button:hover {
   width: auto;
   max-height: 25vh;
   min-height: 15vh;
+  color: #e0e1dd;
 }
 
 footer {
@@ -128,7 +131,7 @@ footer {
   justify-content: center;
   align-items: center;
   font-size: 18px;
-  margin-top: 75px;
+  margin-top: 5vmin;
   color: #e0e1dd;
 }
 
@@ -143,15 +146,19 @@ footer {
   .headerIntro {
     font-size: 20px;
   }
+
   h1 {
     font-size: 38px;
   }
+
   input {
     font-size: 22px;
   }
+
   button {
     font-size: 22px;
   }
+
   .weather {
     font-size: 24px;
   }
@@ -161,15 +168,19 @@ footer {
   .headerIntro {
     font-size: 18px;
   }
+
   h1 {
     font-size: 34px;
   }
+
   input {
     font-size: 20px;
   }
+
   button {
     font-size: 20px;
   }
+
   .weather {
     font-size: 22px;
   }
@@ -179,15 +190,19 @@ footer {
   .headerIntro {
     font-size: 16px;
   }
+
   h1 {
     font-size: 32px;
   }
+
   input {
     font-size: 18px;
   }
+
   button {
     font-size: 18px;
   }
+
   .weather {
     font-size: 20px;
   }
